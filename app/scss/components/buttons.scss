@@ -1,0 +1,21 @@
+@use '../base/' as *;
+@use '../util' as *;
+
+.cta-c {
+    cursor: pointer;
+
+    font-size: rem(14);
+    font-weight: $f-semibold;
+
+    color: white;
+
+    width: rem(205);
+
+    padding: em(13) em(13);
+
+    border: 0 solid;
+    border-radius: 50px;
+}
+
+// extra
+

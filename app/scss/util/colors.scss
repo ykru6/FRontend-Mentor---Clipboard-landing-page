@@ -1,0 +1,17 @@
+$box-shadow-ios: 0 8px 25px hsla(172, 50%, 45%, 0.808), inset 0 -3px 0px rgba(0, 0, 0, 0.2);
+
+$box-shadow-mac: 0 8px 25px hsla(234, 52%, 52%, 0.808), inset 0 -3px 0px rgba(0, 0, 0, 0.2);
+// var ^
+
+$colors: (
+	primary: (
+		strong-cyan: hsl(171, 66%, 44%), 
+		light-blue: hsl(233, 100%, 69%),
+	),
+
+	neutral: (
+		dark-grayish-blue: hsl(210, 10%, 33%),
+		grayish-blue: hsl(201, 11%, 66%),
+		t-light-blue: hsla(202, 11%, 66%, 0.1),
+	)
+)
