@@ -1,0 +1,58 @@
+@use '../base/' as *;
+@use 'colors' as clr;
+@use 'breakpoints' as *;
+@use 'functions' as *;
+
+.flex {
+    display: flex;
+
+    &-jc-c {
+        justify-content: center;
+    }
+
+    &-ai-c {
+        align-items: center;
+    }
+}
+
+.mg-inl-32 {
+    margin-inline: rem(32);
+}
+
+.title {
+	font-size: rem(27.5);
+	font-weight: $f-semibold;
+
+	line-height: 1.4;
+
+	color: clr(neutral, dark-grayish-blue);
+
+    @include breakpoint(medium) {
+        font-size: rem(37.5);
+    }
+}
+
+.h2 {
+	font-size: rem(30.5);
+	font-weight: $f-semibold;
+
+	line-height: 1.4;
+
+	color: clr(neutral, dark-grayish-blue);
+
+    @include breakpoint(medium) {
+        font-size: rem(27.5);
+    }
+}
+
+.subs {
+    font-size: rem(14);
+    
+    line-height: 1.7;
+    
+    color: clr(neutral, grayish-blue);
+
+    @include breakpoint(medium) {
+        font-size: 1.05rem;
+    }
+}
